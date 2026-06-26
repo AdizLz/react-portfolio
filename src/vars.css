@@ -1,0 +1,20 @@
+:root {
+  /* Colores de Marca y Fondo */
+  --color-text: #fff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #0d1220;
+  --color-accent: #21e6c1;
+  --color-warning: #f5a524;
+
+
+  /* Colores de navbar */
+
+
+
+  /* Fonts - Usamos los nombres que Google Fonts reconoce */
+  --font-roboto: "Roboto", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "category": "Frontend",
+    "items": ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "Responsive UI"]
+  },
+  {
+    "category": "Backend & Data",
+    "items": ["Java", "Spring Boot", "MySQL", "APIs", "Postman"]
+  },
+  {
+    "category": "Tools",
+    "items": ["Git/GitHub", "SCRUM", "Jira", "Figma", "Excel", "n8n"]
+  },
+  {
+    "category": "Soft Skills",
+    "items": ["Problem Solving", "Adaptability", "Teamwork", "Communication"]
+  }
+]

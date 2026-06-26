@@ -1,0 +1,41 @@
+{
+  "experiences": [
+    {
+      "role": "Automation Developer Freelancer",
+      "company": "Proyecto de Automatización con n8n",
+      "date": "Nov 2025 - Actualidad",
+      "points": [
+        "Desarrollé chatbot automatizado con n8n para gestión y contacto de productos.",
+        "Colaboré en integración de flujos y automatización de procesos.",
+        "Participé en análisis de requerimientos y mejora de comunicación con clientes."
+      ]
+    },
+    {
+      "role": "Asistente de Laboratorio y Diseñadora Becaria",
+      "company": "LAB iOS Development UANL",
+      "date": "Ago 2024 - Jun 2025",
+      "points": [
+        "Impartí cursos de Swift Playground y iPad a niños de 8 a 13 años.",
+        "Administré inventarios y equipos tecnológicos del laboratorio.",
+        "Colaboré en el diseño de material promocional para eventos del programa."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "icon": "🎓",
+      "title": "Bootcamp Java Full Stack Jr.",
+      "subtitle": "Generation México · Abr-Jul 2026"
+    },
+    {
+      "icon": "🏫",
+      "title": "Ingeniería en Tecnología de Software",
+      "subtitle": "FIME UANL · 2020-2025"
+    },
+    {
+      "icon": "💻",
+      "title": "Técnico en TI con Diseño Gráfico",
+      "subtitle": "EIAO Álvaro Obregón · 2017-2020"
+    }
+  ]
+}

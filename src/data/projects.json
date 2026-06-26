@@ -1,0 +1,96 @@
+[
+  {
+    "title": "Syntax Logistics",
+    "status": "En desarrollo",
+    "progress": 70,
+    "icon": "FaBoxOpen",
+    "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap", "Java", "Spring Boot", "MySQL"],
+    "description": "Plataforma e-commerce para gestión de servicios de mensajería y paquetería. Digitaliza solicitudes, cotizaciones y seguimiento de envíos. Desarrollado bajo Scrum con GitHub y Jira.",
+    "githubUrl": "https://github.com/enriqueperezdevmx-coder/Equipo_Syntax_Error",
+  "previewUrl": "",
+  "tag": "",
+  "images": [
+    "/assets/projects/Logistic-1.svg",
+    "/assets/projects/Logistic-2.svg",
+    "/assets/projects/Logistic-3.svg"
+]
+  },
+
+    {
+    "title": "Mucha Lucha",
+    "status": "En desarrollo",
+    "progress": 70,
+    "icon": "GiLuchador",
+    "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap", "Java", "Spring Boot", "MySQL"],
+    "description": "Plataforma e-commerce para venta de articulos de lucha libre y sobre noticia y eventos ",
+    "githubUrl": "https://github.com/AdizLz/MuchaLucha",
+    "previewUrl": "",
+    "tag": "",
+    "images": [
+        "",
+        ""
+    ]
+  },
+
+  {
+    "title": "Goltrip",
+    "status": "Completado",
+    "icon": "FaRegFutbol",
+    "techStack": ["Swift", "iOS", "API"],
+    "description": "Aplicación iOS que actúa como guía turística inteligente y central de información en tiempo real para los aficionados que asisten a la sede de Monterrey durante el Mundial, integrando datos en vivo mediante API-Football. Proyecto de Hackathon Nacional Swift Changemakers de Apple 2025.",
+    "githubUrl": "https://github.com/AdizLz/Goltrip",
+    "previewUrl": "",
+    "tag": "",
+    "images": [
+        "/assets/projects/Goltrip-1.svg",
+        "/assets/projects/Goltrip-2.svg"
+    ]
+  },
+  
+  {
+    "title": "ArcaRuta",
+    "status": "Completado",
+    "icon": "FaProjectDiagram",
+    "techStack": ["Swift", "ARKit", "IA Gemini", "iOS"],
+    "description": "App iOS para gestión inteligente de inventarios con realidad aumentada. Desarrollada en el Hack4Her 2025. Permite visualizar productos en tiempo real mediante ARKit e IA Gemini.",
+    "githubUrl": "https://github.com/AdizLz/RutaArca-Hack4Her-2025/tree/main",
+    "previewUrl": "",
+    "tag": "",
+    "images": [
+        "/assets/projects/ArcaContinental-1.svg",
+        "/assets/projects/ArcaContinental-2.svg"
+    ]
+  },
+
+  {
+    "title": "Mi Negocio BBVA",
+    "status": "Completado",
+    "icon": "FaChartLine",
+    "techStack": ["Swift", "iOS", "Ecosistema Apple"],
+    "description": "App iOS orientada a apoyar a emprendedores y MiPyMEs en procesos administrativos y financieros. Desarrollada en el Hackathon Nacional Swift Changemakers de Apple.",
+    "githubUrl": "https://github.com/AdizLz/Mi-negocio-bbva-Hackthon-2025",
+    "previewUrl": "",
+    "tag": "",
+    "images": [
+        "/assets/projects/BBVA-1.svg",
+        "/assets/projects/BBVA-2.svg",
+        "/assets/projects/BBVA-3.svg"
+    ]
+  },
+
+  {
+    "title": "Foresty",
+    "status": "Proyecto Ganador Local",
+    "icon": "FaTree",
+    "techStack": ["Swift", "iOS", "Datos climáticos"],
+    "description": "App iOS ganadora del Hackathon Interno iOS LAB UANL. Genera conciencia ambiental mediante mecánicas tipo Tamagotchi con datos climáticos en tiempo real.",
+    "githubUrl": "https://github.com/AdizLz/Foresty-HackthonLocal",
+    "previewUrl": "",
+    "tag": "",
+    "images": [
+        "/assets/projects/foresty-1.svg",
+        "/assets/projects/foresty-2.svg"
+    ]
+  }
+
+]

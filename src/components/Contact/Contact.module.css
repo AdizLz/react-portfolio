@@ -1,0 +1,80 @@
+@import "../../vars.css";
+
+.container {
+  text-align: center;
+  padding: 60px 10% 40px;
+  color: var(--color-text);
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+
+.emailBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--color-accent);
+  color: var(--color-bg);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 12px 24px;
+  border-radius: 100px;
+  margin-bottom: 32px;
+  transition: box-shadow 0.25s ease, transform 0.25s ease, opacity 0.25s ease;
+}
+
+.emailBtn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+  box-shadow: 0 0 14px rgba(33, 230, 193, 0.5);
+}
+
+.socialRow {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+.socialLink {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.socialLink:hover {
+  color: var(--color-text);
+}
+
+.socialIcon {
+  font-size: 16px;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin-bottom: 24px;
+}
+
+.footer {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4);
+  padding-bottom: 10px;
+}
+.info {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4);
+  padding-bottom: 24px;
+  padding-top: 0;
+}

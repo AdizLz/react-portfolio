@@ -1,0 +1,79 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  padding: 80px 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  z-index: 1;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.aboutCard {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aboutCard:hover {
+  border-color: var(--color-accent);
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 20px rgba(33, 230, 193, 0.25);
+}
+
+
+.aboutIcon {
+  color: var(--color-accent);
+  margin-bottom: 16px;
+}
+
+.aboutCardTitle {
+  color: var(--color-text);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.aboutCardText {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.aboutIcon {
+  color: var(--color-accent);
+  margin-bottom: 16px;
+  display: block;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 60px 5%;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
