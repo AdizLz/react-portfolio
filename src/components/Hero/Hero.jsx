@@ -28,7 +28,7 @@ export const Hero = () => {
               Ver proyectos <FaArrowRight />
             </a>
             <a href="https://www.linkedin.com/in/asenetabigaillazcanosauceda/" className={styles.linkedinBtn}>
-              Linkedin <FaLinkedin />
+              Linkedin 
             </a>
             <button onClick={() => setShowCV(true)} className={styles.secondaryBtn}>
               Ver CV

@@ -85,20 +85,45 @@ export const Projects = () => {
               <p className={styles.description}>{project.description}</p>
 
               <div className={styles.buttons}>
-                <a href={project.githubUrl} target="_blank" rel="noreferrer" className={styles.githubBtn}>
-                  GitHub
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noreferrer"
+                className={styles.githubBtn}
+              >
+                GitHub
+              </a>
+
+              {/* Al hacer clic aquí, llamamos a openModal pasándole ESTE proyecto específico */}
+              {project.images?.length > 0 && (
+              <button
+                onClick={() => openModal(project)}
+                className={styles.previewBtn}
+              >
+                Vista previa
+              </button>
+            )}
+
+              {/* Solo muestra el botón Demo si existe previewUrl */}
+              {project.previewUrl && (
+                <a
+                  href={project.previewUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className={styles.previewBtn}
+                >
+                  Demo
                 </a>
-                {/* Al hacer clic aquí, llamamos a openModal pasándole ESTE proyecto específico */}
-                <button onClick={() => openModal(project)} className={styles.previewBtn}>
-                  Vista previa
-                </button>
-              </div>
+              )}
+            </div>
 
               {/* Solo muestra la etiqueta (tag) si el proyecto tiene una distinta de cadena vacía */}
               {project.tag && <span className={styles.tag}>{project.tag}</span>}
+
             </div>
           );
         })}
+        
       </div>
 
       {/* AQUÍ ESTÁ LA CLAVE DEL MODAL:
@@ -114,21 +139,25 @@ export const Projects = () => {
               <FaTimes />
             </button>
 
-            <div className={styles.carousel}>
-              <button onClick={prevImage} className={styles.carouselBtn}>
-                <GrFormPrevious />
-              </button>
-              {/* La imagen que se muestra depende de "currentImage": ese número elige
-                  cuál posición del arreglo selectedProject.images se está mostrando ahora */}
-              <img
-                src={`${selectedProject.images[currentImage]}`}
-                alt={`${selectedProject.title} captura ${currentImage + 1}`}
-                className={styles.carouselImage}
-              />
-              <button onClick={nextImage} className={styles.carouselBtn}>
-                <MdOutlineNavigateNext />
-              </button>
-            </div>
+            {selectedProject.images?.length > 0 && (
+  <>
+          <div className={styles.carousel}>
+            <button onClick={prevImage} className={styles.carouselBtn}>
+              <GrFormPrevious />
+            </button>
+
+            <img
+              src={selectedProject.images[currentImage]}
+              alt={`${selectedProject.title} captura ${currentImage + 1}`}
+              className={styles.carouselImage}
+            />
+
+            <button onClick={nextImage} className={styles.carouselBtn}>
+              <MdOutlineNavigateNext />
+            </button>
+          </div>
+        </>
+      )}
 
             <div className={styles.dots}>
               {/* Un puntito por cada imagen. Si "i" coincide con currentImage, se le agrega

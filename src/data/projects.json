@@ -7,13 +7,13 @@
     "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap", "Java", "Spring Boot", "MySQL"],
     "description": "Plataforma e-commerce para gestión de servicios de mensajería y paquetería. Digitaliza solicitudes, cotizaciones y seguimiento de envíos. Desarrollado bajo Scrum con GitHub y Jira.",
     "githubUrl": "https://github.com/enriqueperezdevmx-coder/Equipo_Syntax_Error",
-  "previewUrl": "",
-  "tag": "",
-  "images": [
-    "/assets/projects/Logistic-1.svg",
-    "/assets/projects/Logistic-2.svg",
-    "/assets/projects/Logistic-3.svg"
-]
+    "previewUrl": "",
+    "tag": "",
+    "images": [
+      "/assets/projects/Logistic-1.svg",
+      "/assets/projects/Logistic-2.svg",
+      "/assets/projects/Logistic-3.svg"
+  ]
   },
 
     {
@@ -24,12 +24,9 @@
     "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap", "Java", "Spring Boot", "MySQL"],
     "description": "Plataforma e-commerce para venta de articulos de lucha libre y sobre noticia y eventos ",
     "githubUrl": "https://github.com/AdizLz/MuchaLucha",
-    "previewUrl": "",
+    "previewUrl": "https://mucha-lucha-gamma.vercel.app",
     "tag": "",
-    "images": [
-        "",
-        ""
-    ]
+    "images": []
   },
 
   {
