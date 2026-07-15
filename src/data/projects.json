@@ -7,7 +7,7 @@
     "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap", "Java", "Spring Boot", "MySQL"],
     "description": "Plataforma e-commerce para gestión de servicios de mensajería y paquetería. Digitaliza solicitudes, cotizaciones y seguimiento de envíos. Desarrollado bajo Scrum con GitHub y Jira.",
     "githubUrl": "https://github.com/enriqueperezdevmx-coder/Equipo_Syntax_Error",
-    "previewUrl": "",
+    "previewUrl": "https://sintax-logistics.vercel.app",
     "tag": "",
     "images": [
       "/assets/projects/Logistic-1.svg",
