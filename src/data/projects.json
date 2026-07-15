@@ -1,8 +1,7 @@
 [
   {
     "title": "Syntax Logistics",
-    "status": "En desarrollo",
-    "progress": 70,
+    "status": "Completado",
     "icon": "FaBoxOpen",
     "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap", "Java", "Spring Boot", "MySQL"],
     "description": "Plataforma e-commerce para gestión de servicios de mensajería y paquetería. Digitaliza solicitudes, cotizaciones y seguimiento de envíos. Desarrollado bajo Scrum con GitHub y Jira.",
@@ -18,8 +17,7 @@
 
     {
     "title": "Mucha Lucha",
-    "status": "En desarrollo",
-    "progress": 70,
+    "status": "Completado",
     "icon": "GiLuchador",
     "techStack": ["HTML", "CSS", "JavaScript", "Bootstrap", "Java", "Spring Boot", "MySQL"],
     "description": "Plataforma e-commerce para venta de articulos de lucha libre y sobre noticia y eventos ",
